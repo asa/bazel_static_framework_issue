@@ -1,5 +1,5 @@
 # bazel_static_framework_issue
-This example attempts to extend the rules_swift example for wrapping c++ in swift. 
+This example attempts to extend the [example rules_swift]( https://github.com/bazelbuild/rules_swift/tree/master/examples/xplatform/c_from_swift) for wrapping c++ in swift. 
 It builds a static framework using the ios_static_framework rule. 
 This static framework may be imported into an xcode application, but the C namespace CCounter is not found.
 
