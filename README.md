@@ -6,8 +6,8 @@ This static framework may be imported into an xcode application, but the C names
 example usage code would be as follows:
 
 ```
-import CounterLib
-let counter = Counter
+import CounterLib // here the error shows up as: Missing required module 'CCounter'
+let counter = Counter()
 for _ in 1...10 {
         counter.increment()
 }
